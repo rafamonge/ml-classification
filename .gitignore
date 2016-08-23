@@ -60,3 +60,6 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+*.0000
+week 1 - programming assignment 1/amazon_baby.gl/m_bfaa91c17752f745.frame_idx
+*.bin
