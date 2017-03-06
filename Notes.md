@@ -61,3 +61,7 @@ How.. gradient ascent!!! There's no closed form.
 ![split on term ](SplitOnTerm.jpg)
 ![split winner ](SplitWinner.jpg)
 
+## Stopping conditions
+
+![All data agrees on Y](stoppingCondition1.jpg)
+![split on all features](stoppingCondition2.jpg)
