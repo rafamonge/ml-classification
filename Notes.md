@@ -35,3 +35,8 @@ How.. gradient ascent!!! There's no closed form.
         - find one η that is too large (oscillation or divergence)
     - Try values in between to find “best” η
     - Advanced tip: can also try step size that decreases with iterations, e.g
+
+## Classification Error
+
+- Error = # Mistakes / Number of data points
+- Accuracy = # Correct  / Number of data points
