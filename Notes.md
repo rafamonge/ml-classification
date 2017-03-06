@@ -47,4 +47,12 @@ How.. gradient ascent!!! There's no closed form.
 
 ![SubtleEffectOfOverfittingInLogisticRegression](SubtleEffectOfOverfittingInLogisticRegression.png)
 
-## 
+# Decision Tree
+
+Greedy decision tree learning:
+
+1. Start with an empty tree
+2. Select a feature to split data
+3. For each split of the tree:
+    - If nothing more to, make predictions
+    - Otherwise, go to Step 2 & continue (recurse) on this split
