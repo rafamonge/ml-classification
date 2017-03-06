@@ -52,3 +52,12 @@ How.. gradient ascent!!! There's no closed form.
 ![DecisionTreeAlgorithm.png](DecisionTreeAlgorithm.png "Decision Tree basic Algorithm")
 
 ![SplitDecision.png](SplitDecision.png "How to split")
+
+
+![Feature split selection algorithn](FeatureSplitselectionAlgorithm.jpg)
+
+![split on credit](splitOnCredit.jpg)
+
+![split on term ](SplitOnTerm.jpg)
+![split winner ](SplitWinner.jpg)
+
