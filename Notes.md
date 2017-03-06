@@ -78,11 +78,11 @@ By design, each split  on the tree reduces training error
 
 How do we pick simpler trees?
 
-1.  Early Stopping: Stop learning algorithm before tree become too complex
+- Early Stopping: Stop learning algorithm before tree become too complex
     - Limit tree depth: Stop splitting after a certain depth
     - Classification error: Do not consider any split that does not cause a sufficient decrease in classification error
     - Minimum node “size”: Do not split an intermediate node which contains too few data points
-2.  Pruning: Train a complex tree, simplify later
+- Pruning: Train a complex tree, simplify later
     - L(T) depth of node = Measure of complexiy
     - balance between complexity and predicive power
     - Total cost = measure of fit + measure of complexity
