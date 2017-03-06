@@ -46,3 +46,5 @@ How.. gradient ascent!!! There's no closed form.
 ![Classification Overfitting](classificationOverfitting.png "Classification Overfitting")
 
 ![SubtleEffectOfOverfittingInLogisticRegression](SubtleEffectOfOverfittingInLogisticRegression.png)
+
+## 
