@@ -77,6 +77,7 @@ How.. gradient ascent!!! There's no closed form.
 By design, each split  on the tree reduces training error 
 
 How do we pick simpler trees?
+
 1.  Early Stopping: Stop learning algorithm before tree become too complex
     - Limit tree depth: Stop splitting after a certain depth
     - Classification error: Do not consider any split that does not cause a sufficient decrease in classification error
