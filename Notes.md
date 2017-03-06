@@ -21,4 +21,17 @@ The model is trained by maximizing Maximun Likelihood Estimattion.
 
 Maximize the Function Multiplication(  P ( yi | xi, w) )
 
-![MLE formula](/mle.png "MLE")
+![MLE formula](MLE.png "MLE")
+
+How.. gradient ascent!!! There's no closed form. 
+
+## Gradient ascent
+- If step size is too small, can take along time to converge
+- Very large step sizes can even cause divergence or wild oscillations
+- Unfortunately, picking step sizerequires a lot of trial and error L
+    - Try a several values, exponentially spaced
+    - Goal: plot learning curves to    
+        - find one η that is too small (smooth but moving too slowly)
+        - find one η that is too large (oscillation or divergence)
+    - Try values in between to find “best” η
+    - Advanced tip: can also try step size that decreases with iterations, e.g
