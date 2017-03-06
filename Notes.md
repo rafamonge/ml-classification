@@ -49,10 +49,6 @@ How.. gradient ascent!!! There's no closed form.
 
 # Decision Tree
 
-Greedy decision tree learning:
+![DecisionTreeAlgorithm.png](DecisionTreeAlgorithm.png "Decision Tree basic Algorithm")
 
-1. Start with an empty tree
-2. Select a feature to split data
-3. For each split of the tree:
-    - If nothing more to, make predictions
-    - Otherwise, go to Step 2 & continue (recurse) on this split
+![SplitDecision.png](SplitDecision.png "How to split")
