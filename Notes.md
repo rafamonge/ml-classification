@@ -20,3 +20,5 @@ Advantage is that This gives a measure of certainty.
 The model is trained by maximizing Maximun Likelihood Estimattion.
 
 Maximize the Function Multiplication(  P ( yi | xi, w) )
+
+![MLE formula](/mle.png "MLE")
