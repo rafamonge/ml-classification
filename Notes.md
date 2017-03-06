@@ -43,4 +43,5 @@ How.. gradient ascent!!! There's no closed form.
 
 ## Classification Overfitting 
 
+![Classification Overfitting](classificationOverfitting.png "Classification Overfitting")
 
