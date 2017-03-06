@@ -40,3 +40,7 @@ How.. gradient ascent!!! There's no closed form.
 
 - Error = # Mistakes / Number of data points
 - Accuracy = # Correct  / Number of data points
+
+## Classification Overfitting 
+
+
