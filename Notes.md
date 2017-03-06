@@ -65,3 +65,9 @@ How.. gradient ascent!!! There's no closed form.
 
 ![All data agrees on Y](stoppingCondition1.jpg)
 ![split on all features](stoppingCondition2.jpg)
+
+
+## Splitting on numeric variables
+
+![numeric Splits With Threshold](numericSplitsWithThreshold.jpg)
+![Iterate throuhg midpoints](finiteNumberOfSplits.jpg)
