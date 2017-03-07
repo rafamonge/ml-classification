@@ -88,3 +88,43 @@ How do we pick simpler trees?
     - Total cost = measure of fit + measure of complexity
     - Total cost C(T) = Error(T) + λ L(T)
 
+# Boosting
+
+- Set of weak (simple learnins, with low variance, high bias and easy to train) are combined to create stornger learner.
+Ensemble classifier in general
+- Goal:
+    - Predict output y:   Either +1 or -1
+    - From input x
+- Learn ensemble model:
+    - Classifiers: f1(x),f2(x),…,fT(x)
+    - Coefficients: ŵ1,ŵ2,…,ŵT
+- Prediction: y = sign( Sum ( ŵt ft (x )) 
+- Start by training a classifier
+- Train next classifier focusing on places where f(x) does less well
+
+
+Learning on weighted data:
+More weight on "hard" or more important points
+- Weighted dataset:
+    - Each xi,yi weighted by αi
+        - More important point = higher weight αi
+- Learning:
+    - Data point j counts as αi data points
+        - E.g., αi = 2 ->  count point twice
+
+- Training error of boosted classifier → 0 as T→∞
+- Boosting tends to be robust to overfitting 
+- But boosting will eventually overfit, so must choose max number of components T
+- Use Validation set or cross validation to choose  T
+
+## Random Forest
+
+- Pick random subset of data
+    - Learn a tree in each subset
+    - Average predictions
+ - Simpler than boosting & easier to parallelize
+ - Tipycall higher error than boosting for same number of trees.
+ 
+ ##  Gradient boosting
+ 
+Like AdaBoost, but useful beyond basic classification
